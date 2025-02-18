@@ -140,7 +140,7 @@ export const App = () => {
       setError(true);
       return;
     }
-    window.gtag('event', 'activate_constr_4205');
+    window.gtag('event', 'activate_4383_var4');
     setLoading(true);
 
     sendDataToGA({

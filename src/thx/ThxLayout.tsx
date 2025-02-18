@@ -27,12 +27,7 @@ export const ThxLayout = () => {
       </div>
       <Gap size={96} />
       <div className={appSt.bottomBtn}>
-        <ButtonMobile
-          href="alfabank://investments"
-          block
-          view="secondary"
-          onClick={() => window.gtag('event', 'wait_const_4205_var5')}
-        >
+        <ButtonMobile href="alfabank://investments/open_brokerage_account" block view="secondary">
           Буду ждать
         </ButtonMobile>
       </div>
