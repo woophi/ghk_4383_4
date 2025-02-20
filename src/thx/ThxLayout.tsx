@@ -19,10 +19,10 @@ export const ThxLayout = () => {
       <div className={thxSt.container}>
         <img src={sparkles} width={80} height={80} className={thxSt.rocket} />
         <Typography.TitleResponsive font="system" tag="h1" view="small" style={{ margin: '24px 0 12px' }} weight="bold">
-          Подписка находится в режиме тестирования
+          Откройте брокерский счет
         </Typography.TitleResponsive>
         <Typography.Text tag="p" view="primary-medium" defaultMargins={false}>
-          Следите за новостями, чтобы узнать, когда она станет доступной
+          Для оформления подписки на инвестиции необходимо отрыть брокерский счет
         </Typography.Text>
       </div>
       <Gap size={96} />
